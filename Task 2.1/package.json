@@ -1,0 +1,9 @@
+{
+    "name": "task_2.2",
+    "version": "alpha_test",
+    "private": true,
+    "scripts": {
+        "install": "mpremote connect com6 fs mkdir lib &&mpremote connect com6 cp ./src/main.py :main.py &&mpremote connect com6 cp ./lib/ssd1306.mpy :lib/ssd1306.mpy &&mpremote connect com6 cp ./lib/filefifo.py :lib/filefifo.py &&mpremote connect com6 cp ./src/sinewave_250Hz_01.txt :sinewave_250Hz_01.txt &&mpremote connect com6 cp ./src/sinewave_250Hz_02.txt :sinewave_250Hz_02.txt &&mpremote connect com6 cp ./src/sinewave_250Hz_03.txt :sinewave_250Hz_03.txt &&mpremote connect com6 fs ls" 
+    }
+}
+
